@@ -53,7 +53,7 @@
         <img class="rounded-lg shadow-lg" src="../assets/img/MGI__NEW_LOGO_v1.jpg" alt="" />
         <div class="p-4">
 
-          <h2 class="font-bold text-2xl">MoneyGram</h2>
+          <h2 class="font-bold text-3xl text-blue-800">MoneyGram</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
             cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
         </div>
@@ -65,7 +65,7 @@
         <img class="rounded-lg shadow-lg" src="../assets/img/ria-money-transfer.jpg" alt="" />
 
         <div class="p-4">
-          <h2 class="font-bold text-2xl">Ria</h2>
+          <h2 class="font-bold text-3xl text-blue-800">Ria</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
             cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
         </div>
@@ -77,7 +77,7 @@
         <img class="rounded-lg shadow-lg" src="../assets/img/canal.jpg" alt="" />
 
         <div class="p-4">
-          <h2 class="font-bold text-2xl">Canal +</h2>
+          <h2 class="font-bold text-3xl text-blue-800">Canal +</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
             cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
         </div>
@@ -89,7 +89,7 @@
         <img class="rounded-lg shadow-lg" src="../assets/img/visa.jpg" alt="" />
 
         <div class="p-4">
-          <h2 class="font-bold text-2xl">Visa</h2>
+          <h2 class="font-bold text-3xl text-blue-800">Visa</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
             cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
         </div>
