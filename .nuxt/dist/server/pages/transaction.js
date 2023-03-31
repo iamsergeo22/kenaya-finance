@@ -8,12 +8,12 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/transaction.vue?vue&type=template&id=1ae978da&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"max-w-7xl mx-auto mt-8 container"},[_vm._ssrNode("<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfISEwN6tyzKh0VxEEXpc1zk-AV7GMmAGwrCsGA9-65y_GfSA/viewform?embedded=true\" width=\"100%\" height=\"950\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/transaction.vue?vue&type=template&id=0dbd520c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"lg:max-w-7xl mx-auto mt-8"},[_vm._ssrNode("<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfISEwN6tyzKh0VxEEXpc1zk-AV7GMmAGwrCsGA9-65y_GfSA/viewform?embedded=true\" width=\"100%\" height=\"950\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/transaction.vue?vue&type=template&id=1ae978da&
+// CONCATENATED MODULE: ./pages/transaction.vue?vue&type=template&id=0dbd520c&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/transaction.vue?vue&type=script&lang=js&
 //
