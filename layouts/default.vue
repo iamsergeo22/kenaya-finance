@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans flex flex-col">
+  <div class=" font-sans flex flex-col">
     <header>
       <nav class="shadow-lg mx-auto flex flex-wrap bg-white gap-4 px-8 lg:justify-between justify-between items-center py-4">
         <div>
@@ -140,6 +140,10 @@
 
 <style scoped>
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+.font-sans {
+    font-family: 'Josefin Sans', 'Open Sans', sans-serif;
+  }
 
 </style>

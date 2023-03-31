@@ -14,7 +14,7 @@
       <div class="sm:text-left items-center">
         <div class="lg:pt-8">
           <h2 class="text-4xl text-blue-800 font-bold pb-2">A Propos de Nous</h2>
-          <p class="mb-4 text-xl sm:w-full text-justify">
+          <p class="mb-4 text-xl sm:w-full text-justify lg:w-3/4">
 
             Nous sommes une Société de transfert de fonds et bureau de change.
             Notre mission est de fournir un service de transfert d'argent rapide, fiable et abordable à nos clients, en
@@ -45,100 +45,61 @@
 
 
     </div> <!-- end hero -->
-    
+
     <h2 class="text-4xl text-blue-800 font-bold text-center">Nos Produits</h2>
 
-    <div class="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 p-8">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-8">
+      <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
+        <img class="rounded-lg shadow-lg" src="../assets/img/MGI__NEW_LOGO_v1.jpg" alt="" />
+        <div class="p-4">
 
-      <div class="flex justify-center">
-        <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-          <a href="#!">
-            <img class="rounded-t-lg" src="../assets/img/moneygram.jpg" alt="" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Card title
-            </h5>
-            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button type="button"
-              class="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              Button
-            </button>
-          </div>
+          <h2 class="font-bold text-2xl">MoneyGram</h2>
+          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
+            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+        </div>
+        <div class="p-4">
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
+      <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
+        <img class="rounded-lg shadow-lg" src="../assets/img/ria-money-transfer.jpg" alt="" />
 
-
-      <div class="flex justify-center">
-        <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-          <a href="#!">
-            <img class="rounded-t-lg" src="../assets/img/ria.png" alt="" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Card title
-            </h5>
-            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button type="button"
-              class="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              Button
-            </button>
-          </div>
+        <div class="p-4">
+          <h2 class="font-bold text-2xl">Ria</h2>
+          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
+            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+        </div>
+        <div class="p-4">
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
+      <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
+        <img class="rounded-lg shadow-lg" src="../assets/img/canal.jpg" alt="" />
 
-      <div class="flex justify-center">
-        <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-          <a href="#!">
-            <img class="rounded-t-lg" src="../assets/img/canal.png" alt="" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Card title
-            </h5>
-            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button type="button"
-              class="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              Button
-            </button>
-          </div>
+        <div class="p-4">
+          <h2 class="font-bold text-2xl">Canal +</h2>
+          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
+            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+        </div>
+        <div class="p-4">
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
+      <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
+        <img class="rounded-lg shadow-lg" src="../assets/img/visa.jpg" alt="" />
 
-      <div class="flex justify-center">
-        <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-          <a href="#!">
-            <img class="rounded-t-lg" src="../assets/img/moneygram.jpg" alt="" />
-          </a>
-          <div class="p-6">
-            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Card title
-            </h5>
-            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button type="button"
-              class="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-              data-te-ripple-init data-te-ripple-color="light">
-              Button
-            </button>
-          </div>
+        <div class="p-4">
+          <h2 class="font-bold text-2xl">Visa</h2>
+          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
+            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+        </div>
+        <div class="p-4">
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
     </div>
+
+
 
 
 
