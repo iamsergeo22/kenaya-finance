@@ -55,7 +55,7 @@
 
           <h2 class="font-bold text-3xl text-blue-800">MoneyGram</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
-            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+          </p>
         </div>
         <div class="p-4">
           <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
@@ -67,7 +67,7 @@
         <div class="p-4">
           <h2 class="font-bold text-3xl text-blue-800">Ria</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
-            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+          </p>
         </div>
         <div class="p-4">
           <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
@@ -79,7 +79,7 @@
         <div class="p-4">
           <h2 class="font-bold text-3xl text-blue-800">Canal +</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
-            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+          </p>
         </div>
         <div class="p-4">
           <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
@@ -91,7 +91,7 @@
         <div class="p-4">
           <h2 class="font-bold text-3xl text-blue-800">Visa</h2>
           <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
-            cursus id eu ex. Sed vel sapien tincidunt, pretium ipsum sit amet, aliquet velit.</p>
+          </p>
         </div>
         <div class="p-4">
           <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>

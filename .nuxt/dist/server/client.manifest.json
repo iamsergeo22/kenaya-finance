@@ -24,14 +24,14 @@
     "node_modules/commons.1e2e02e.js",
     "pages/about.385883c.js",
     "pages/contact.37a439d.js",
-    "pages/index.da98376.js",
+    "pages/index.b4376e0.js",
     "pages/posts/_slug.0fbaa0b.js",
     "pages/team.58d66fb.js",
     "pages/transaction.341a245.js",
-    "runtime.b22953f.js"
+    "runtime.14b149b.js"
   ],
   "initial": [
-    "runtime.b22953f.js",
+    "runtime.14b149b.js",
     "node_modules/commons.1e2e02e.js",
     "app.2335f89.js"
   ],
@@ -39,7 +39,7 @@
     "content/plugin.js.16ebfca.js",
     "pages/about.385883c.js",
     "pages/contact.37a439d.js",
-    "pages/index.da98376.js",
+    "pages/index.b4376e0.js",
     "pages/posts/_slug.0fbaa0b.js",
     "pages/team.58d66fb.js",
     "pages/transaction.341a245.js"
@@ -2676,7 +2676,7 @@
     "600abf1c": [
       24
     ],
-    "6e8dfc5a": [
+    "ec84c99c": [
       23,
       8,
       9,
@@ -2811,7 +2811,7 @@
       19,
       13
     ],
-    "5e1e831b": [
+    "1f231c7a": [
       23,
       8,
       9,
@@ -2823,7 +2823,7 @@
       19,
       13
     ],
-    "08c31777": [
+    "6c709e54": [
       23,
       8,
       9,
@@ -3102,7 +3102,7 @@
       19,
       13
     ],
-    "315f756c": [
+    "09ca55ea": [
       23,
       8,
       9,
@@ -3126,7 +3126,7 @@
       19,
       13
     ],
-    "2b962a64": [
+    "3f60ba25": [
       23,
       8,
       9,
@@ -3177,7 +3177,7 @@
       "pages/contact.37a439d.js"
     ],
     "2a130dde": [
-      "pages/index.da98376.js"
+      "pages/index.b4376e0.js"
     ],
     "6cb54166": [
       "pages/posts/_slug.0fbaa0b.js"
@@ -3189,7 +3189,7 @@
       "pages/transaction.341a245.js"
     ],
     "6fca0322": [
-      "runtime.b22953f.js"
+      "runtime.14b149b.js"
     ]
   }
 }
