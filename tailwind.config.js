@@ -71,8 +71,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
-  purge: {
+  plugins: [require("tw-elements/dist/plugin")],
+    purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === 'production',
     content: [
@@ -80,7 +80,10 @@ module.exports = {
       'layouts/**/*.vue',
       'pages/**/*.vue',
       'plugins/**/*.js',
-      'nuxt.config.js'
+      'nuxt.config.js',
+      "./src/**/*.{html,js}",
+      "./node_modules/tw-elements/dist/js/**/*.js"
+
     ]
   }
 }
