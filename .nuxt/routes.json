@@ -1,0 +1,51 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_50f3ef1b"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_339d2ea4"
+  },
+  {
+    "name": "service",
+    "path": "/service",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/service.vue",
+    "chunkName": "pages/service",
+    "_name": "_70d0b8c3"
+  },
+  {
+    "name": "team",
+    "path": "/team",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/team.vue",
+    "chunkName": "pages/team",
+    "_name": "_2e0e103f"
+  },
+  {
+    "name": "transaction",
+    "path": "/transaction",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/transaction.vue",
+    "chunkName": "pages/transaction",
+    "_name": "_3f48c528"
+  },
+  {
+    "name": "posts-slug",
+    "path": "/posts/:slug?",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/posts/_slug.vue",
+    "chunkName": "pages/posts/_slug",
+    "_name": "_0011e648"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_70abc9e0"
+  }
+]
