@@ -27,7 +27,7 @@
 
           <div class="mt-4">
             <nuxt-link to="/transaction"
-              class="bg-blue-900 hover:bg-green-500 hover:no-underline hover:text-white shadow-2xl rounded-lg px-4 py-3 text-white text-xl font-bold transition-colors duration-300">
+              class="bg-blue-900 button hover:no-underline hover:text-white shadow-2xl rounded-lg px-4 py-3 text-white text-xl font-bold transition-colors duration-300">
               Lancer une transaction
             </nuxt-link>
           </div>
@@ -58,7 +58,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 button text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
       <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
@@ -70,7 +70,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 button text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
       <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
@@ -82,7 +82,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 button text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
       <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
@@ -94,7 +94,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 button text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
     </div>
@@ -117,16 +117,13 @@
     background-size: cover;
   }
 
-  .color {
-    background-color: rgb(163 230 53);
-  }
-
+  
   i {
     font-size: 1.5rem;
   }
 
-  button:focus {
-    outline: none;
+  .button:hover {
+    background-color: #b4e41c;
     /* Remove focus outline */
   }
 </style>

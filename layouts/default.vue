@@ -29,7 +29,7 @@
           </li>
 
           <li>
-            <nuxt-link to="/" class="text-black hover:text-blue-800  text-xl hover:no-underline">Accueil</nuxt-link>
+            <nuxt-link to="/" class="text-black hover:text-blue-800 text-xl hover:no-underline">Accueil</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/transaction" class="text-black hover:text-blue-800  text-xl hover:no-underline">Transactions
@@ -160,4 +160,16 @@
   .font-sans {
     font-family: 'Poppins', sans-serif;
   }
+
+  li:active {
+  background-color: #b4e41c;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+  li:hover {
+  background-color: #b4e41c;
+  border: 1px solid black;
+  padding: 5px;
+}
 </style>

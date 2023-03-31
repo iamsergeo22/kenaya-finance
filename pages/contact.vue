@@ -2,9 +2,9 @@
     <div class="px-4 sm:px-6 lg:px-8 py-10">
         <h2 class="text-3xl text-blue-800 font-bold font-bold uppercase text-center mb-8">Contact Us</h2>
        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:mx-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:gap-10 lg:mx-12">
 
-            <div class="text-lg sm:text-lg mb-16">
+            <div class="text-lg sm:text-lg mb-12">
                 <form action="#" class="mb-12">
                     <div class="flex flex-wrap mb-6 -mx-4">
                         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
@@ -13,7 +13,7 @@
                             </label>
 
                             <input type="text" name="name" id="name" placeholder="Jon Snow"
-                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-3"
                                 required>
                         </div>
 
@@ -23,7 +23,7 @@
                             </label>
 
                             <input type="email" name="email" id="email" placeholder="email@example.com"
-                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-3"
                                 required>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                             </label>
 
                             <input type="number" name="number" id="number" placeholder="+242 16 592 8167"
-                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-3"
                                 required>
                         </div>
 
@@ -45,7 +45,7 @@
                             </label>
 
                             <input type="email" name="email" id="email" placeholder="Asking for informations"
-                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-3"
                                 required>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
 
                     <div class="flex justify-end w-full">
                         <input type="submit" value="Submit"
-                            class="block bg-blue-600 hover:bg-blue-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
+                            class="block bg-blue-600 hover:bg-blue-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-4 py-3">
                     </div>
                 </form>
             </div>
@@ -78,7 +78,7 @@
 
 
             <div>
-                <div class="bg-blue-900 rounded-lg shadow-2xl px-4">
+                <div class="bg-blue-900 rounded-lg shadow-2xl px-4 py-2  mb-2">
                     <h2 class="text-2xl font-bold text-white mb-4">Adresse</h2>
                     <p class="italic text-white mb-4"><strong>Address:</strong> 123 Boulevard, Brazzaville, Congo</p>
                     <p class="text-white italic mb-4"> <strong>Phone:</strong> 065918117</p>
@@ -86,7 +86,7 @@
                     <p class="text-white italic mb-4"><strong>Hours of Operation:</strong> Monday - Friday: 9am - 5pm, Saturday: 10am - 2pm, Sunday: Closed</p>
                 </div>
 
-                <div class="aspect-w-16 aspect-h-7 rounded-lg shadow-2xl overflow-hidden">
+                <div class="aspect-w-16 aspect-h-5 rounded-lg shadow-2xl overflow-hidden">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.417412837234!2d-73.98579178521707!3d40.74844194225139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259d75c5f5c5d%3A0x93a74d47b46dbd65!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1635024562182!5m2!1sen!2sus"
                         width="600" height="338" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
