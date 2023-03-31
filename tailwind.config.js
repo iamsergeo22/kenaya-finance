@@ -44,7 +44,7 @@ module.exports = {
       
     }, */
     fontFamily: {
-      sans: ['Josefin Sans', 'Open Sans', 'sans-serif'],
+      sans: ['Josefin Sans', 'Poppins',  'Open Sans', 'sans-serif'],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'Menlo',

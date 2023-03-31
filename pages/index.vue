@@ -18,7 +18,7 @@
 
             Nous sommes une Société de transfert de fonds et bureau de change.
             Notre mission est de fournir un service de transfert d'argent rapide, fiable et abordable à nos clients, en
-            leur offrant une expérience transparente et sécurisée.Notre objectif est de simplifier les transferts
+            leur offrant une expérience transparente et sécurisée. Notre objectif est de simplifier les transferts
             d'argent pour nos clients, en leur offrant une solution pratique et facile à utiliser, peu importe où ils se
             trouvent dans le monde.
 
@@ -58,7 +58,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
       <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
@@ -70,7 +70,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
       <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
@@ -82,7 +82,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
       <div class="border rounded shadow-md hover:shadow-lg transition duration-300">
@@ -94,7 +94,7 @@
           </p>
         </div>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-blue-900 hover:no-underline py-3 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
     </div>

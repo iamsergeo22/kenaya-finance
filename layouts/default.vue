@@ -1,7 +1,9 @@
 <template>
   <div class=" font-sans flex flex-col">
+
     <header>
-      <nav class="shadow-lg mx-auto flex flex-wrap bg-white gap-4 px-8 lg:justify-between justify-between items-center py-4">
+      <nav
+        class="shadow-lg mx-auto flex flex-wrap bg-white gap-4 px-8 lg:justify-between justify-between items-center py-4">
         <div>
           <nuxt-link v-if="theme === 'theme-light'" to="/">
             <h1 class="text-2xl">
@@ -30,16 +32,20 @@
             <nuxt-link to="/" class="text-black hover:text-blue-800  text-xl hover:no-underline">Accueil</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/transaction" class="text-black hover:text-blue-800  text-xl hover:no-underline">Transactions</nuxt-link>
+            <nuxt-link to="/transaction" class="text-black hover:text-blue-800  text-xl hover:no-underline">Transactions
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/team" class="text-black hover:text-blue-800  text-xl hover:no-underline">Notre Equipe</nuxt-link>
+            <nuxt-link to="/team" class="text-black hover:text-blue-800  text-xl hover:no-underline">Notre Equipe
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/about" class="text-black hover:text-blue-800  text-xl hover:no-underline">A Propos</nuxt-link>
+            <nuxt-link to="/about" class="text-black hover:text-blue-800  text-xl hover:no-underline">A Propos
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl hover:no-underline">Nous Contacter</nuxt-link>
+            <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl hover:no-underline">Nous Contacter
+            </nuxt-link>
           </li>
 
         </ul>
@@ -87,7 +93,7 @@
             </a>
           </li>
 
-          
+
         </ul>
       </div>
     </footer>
@@ -99,6 +105,8 @@
           fill="#2C8056" fill-rule="evenodd" opacity=".503" /></svg>
     </div>
   </div>
+
+
 </template>
 
 <script>
@@ -111,6 +119,21 @@
     },
     mounted() {
       this.theme = localStorage.getItem('theme') || 'theme-light'
+
+
+
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6426d3684247f20fefe90e86/1gsrqjkr9';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+
     },
     data() {
       return {
@@ -125,16 +148,16 @@
       updateTheme(theme) {
         this.theme = theme
       }
-    }
+    },
+
+
   }
 </script>
 
 <style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
-.font-sans {
-    font-family: 'Josefin Sans', 'Open Sans', sans-serif;
+  .font-sans {
+    font-family: 'Poppins', sans-serif;
   }
-
 </style>
