@@ -1,8 +1,8 @@
 <template>
-    <div class="px-4 sm:px-6 lg:px-8 py-10 container mt-24">
+    <div class="px-4 sm:px-6 lg:px-8 py-10">
         <h2 class="text-3xl text-blue-800 font-bold font-bold uppercase text-center mb-8">Contact Us</h2>
        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 container mx-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:mx-12">
 
             <div class="text-lg sm:text-lg mb-16">
                 <form action="#" class="mb-12">

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100">
-    <h2 class="text-3xl text-blue-800 font-bold uppercase text-center mb-2 mt-24">A Propos</h2>
+    <h2 class="text-3xl text-blue-800 font-bold uppercase text-center mb-2">A Propos</h2>
 
     <div class="mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 p-8">

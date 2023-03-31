@@ -1,4 +1,10 @@
 {
+  "Slider": {
+    "description": "Auto imported from components/Slider.vue"
+  },
+  "LazySlider": {
+    "description": "Auto imported from components/Slider.vue"
+  },
   "ThemeSwitcher": {
     "description": "Auto imported from components/ThemeSwitcher.vue"
   },

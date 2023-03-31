@@ -5,6 +5,10 @@ import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
+import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
+
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 import '../assets/css/tailwind.css'

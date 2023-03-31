@@ -59,7 +59,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxt/content',
     ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
+    'bootstrap-vue/nuxt'
   ],
 
   content: {

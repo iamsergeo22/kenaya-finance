@@ -1,15 +1,18 @@
 <template>
-  <div>
+  <div class="scrollable-container">
     
-    <div class="bg-hero mx-auto py-4 px-4 shadow-lg flex justify-center items-center mt-24 w-full h-screen opacity-60">
-
+    
+    <div class="">
+      <div>
+      <Slider />
+    </div>
     </div>
 
 
     <div class="container mx-auto flex flex-col sm:flex-row justify-between py-16 gap-8">
 
       <div class="sm:text-left items-center">
-        <div class="pt-8">
+        <div class="lg:pt-8">
           <h2 class="text-4xl text-blue-800 font-bold pb-2">A Propos de Nous</h2>
           <p class="mb-4 text-xl sm:w-full text-justify">
 
@@ -24,7 +27,7 @@
 
           <div class="mt-4">
             <nuxt-link to="/transaction"
-              class="bg-blue-900 hover:bg-green-500 hover:text-white shadow-2xl rounded-lg px-8 py-2 text-white text-xl font-bold transition-colors duration-300">
+              class="bg-blue-900 hover:bg-green-500 hover:no-underline hover:text-white shadow-2xl rounded-lg px-8 py-2 text-white text-xl font-bold transition-colors duration-300">
               Lancer une transaction
             </nuxt-link>
           </div>
@@ -68,4 +71,7 @@
     outline: none;
     /* Remove focus outline */
   }
+
+
+
 </style>

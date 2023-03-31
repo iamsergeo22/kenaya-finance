@@ -14,13 +14,6 @@
     "_name": "_339d2ea4"
   },
   {
-    "name": "service",
-    "path": "/service",
-    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/service.vue",
-    "chunkName": "pages/service",
-    "_name": "_70d0b8c3"
-  },
-  {
     "name": "team",
     "path": "/team",
     "component": "/home/serge/Desktop/Kenaya-finance-new/pages/team.vue",

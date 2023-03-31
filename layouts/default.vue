@@ -27,19 +27,19 @@
           </li>
 
           <li>
-            <nuxt-link to="/" class="text-black hover:text-blue-800  text-xl">Accueil</nuxt-link>
+            <nuxt-link to="/" class="text-black hover:text-blue-800  text-xl hover:no-underline">Accueil</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/transaction" class="text-black hover:text-blue-800  text-xl">Transactions</nuxt-link>
+            <nuxt-link to="/transaction" class="text-black hover:text-blue-800  text-xl hover:no-underline">Transactions</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/team" class="text-black hover:text-blue-800  text-xl">Notre Equipe</nuxt-link>
+            <nuxt-link to="/team" class="text-black hover:text-blue-800  text-xl hover:no-underline">Notre Equipe</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/about" class="text-black hover:text-blue-800  text-xl">A Propos</nuxt-link>
+            <nuxt-link to="/about" class="text-black hover:text-blue-800  text-xl hover:no-underline">A Propos</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl">Nous Contacter</nuxt-link>
+            <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl hover:no-underline">Nous Contacter</nuxt-link>
           </li>
 
         </ul>
@@ -140,12 +140,6 @@
 
 <style scoped>
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
 
-}
 
 </style>
