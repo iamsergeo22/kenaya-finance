@@ -1,4 +1,10 @@
 {
+  "Agences": {
+    "description": "Auto imported from components/Agences.vue"
+  },
+  "LazyAgences": {
+    "description": "Auto imported from components/Agences.vue"
+  },
   "Slider": {
     "description": "Auto imported from components/Slider.vue"
   },

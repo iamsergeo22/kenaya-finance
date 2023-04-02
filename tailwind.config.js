@@ -45,7 +45,7 @@ module.exports = {
     }, */
     fontFamily: {
       sans: ['Josefin Sans', 'Poppins',  'Open Sans', 'sans-serif'],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      /* serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'Menlo',
         'Monaco',
@@ -53,7 +53,7 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         'monospace',
-      ],
+      ], */
     },
   },
   variants: {},

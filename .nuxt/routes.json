@@ -7,6 +7,13 @@
     "_name": "_50f3ef1b"
   },
   {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/home/serge/Desktop/Kenaya-finance-new/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_6a13d304"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "/home/serge/Desktop/Kenaya-finance-new/pages/contact.vue",

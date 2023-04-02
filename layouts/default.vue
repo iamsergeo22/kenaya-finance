@@ -44,6 +44,10 @@
             </nuxt-link>
           </li>
           <li>
+            <nuxt-link to="/blog" class="text-black hover:text-blue-800  text-xl hover:no-underline">Blog
+            </nuxt-link>
+          </li>
+          <li>
             <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl hover:no-underline">Nous Contacter
             </nuxt-link>
           </li>

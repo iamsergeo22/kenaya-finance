@@ -100,6 +100,9 @@
     </div>
 
 
+   <div class="p-8">
+    <agences></agences>
+   </div>
 
 
 
@@ -107,7 +110,9 @@
 </template>
 
 <script>
-  export default {}
+import Agences from '../components/Agences.vue'
+  export default {
+  components: { Agences },}
 </script>
 
 
