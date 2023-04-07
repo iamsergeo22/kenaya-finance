@@ -7,15 +7,15 @@
           <nuxt-link :to="`/posts/${post.slug}`" class="text-blue-600">{{ post.title }}</nuxt-link>
         </h2>
         <div class="text-copy-secondary mb-4 text-md font-bold italic px-4">
-          <span>{{ post.date }}</span>
+          <span>{{ formatDate(post.date) }}</span>
         </div>
 
-        <div class="text-lg mb-4 text-justify px-4">
+        <!-- <div class="text-lg mb-4 text-justify px-4">
           {{ post.summary }}
-        </div>
+        </div> -->
 
-        <div class="mb-2 px-4">
-          <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">Read More</nuxt-link>
+        <div class="mb-4 px-4">
+          <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase text-md">Read More</nuxt-link>
         </div>
       </div> <!-- end post -->
     </div>
