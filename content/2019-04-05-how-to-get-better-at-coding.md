@@ -1,4 +1,5 @@
 ---
+image: https://images.pexels.com/photos/13356439/pexels-photo-13356439.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
 title: How to Get Better At Coding
 path: /how-to-get-better-at-coding
 date: 2019-04-05

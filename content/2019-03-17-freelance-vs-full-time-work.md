@@ -1,4 +1,5 @@
 ---
+image: https://images.pexels.com/photos/13356439/pexels-photo-13356439.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
 title: Freelance vs Full Time Work
 path: /freelance-vs-full-time-work
 date: 2019-03-17

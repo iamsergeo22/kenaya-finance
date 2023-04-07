@@ -1,6 +1,8 @@
 <template>
   <div>
     <div class="markdown-body">
+      <img :src=postInMarkdown.image :alt="postInMarkdown.title" class="w-full rounded-lg shadow-lg mb-3">
+
       <h2>{{ postInMarkdown.title }}</h2>
       <div>{{ dateFormatted }}</div>
 

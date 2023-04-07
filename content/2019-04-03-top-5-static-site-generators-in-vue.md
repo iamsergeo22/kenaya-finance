@@ -1,4 +1,5 @@
 ---
+image: https://images.pexels.com/photos/13356439/pexels-photo-13356439.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
 title: Top 5 Static Site Generators in Vue
 path: /top-5-static-site-generators-in-vue
 date: 2019-04-03

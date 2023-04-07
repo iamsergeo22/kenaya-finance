@@ -1,4 +1,5 @@
 ---
+image: https://images.pexels.com/photos/13356439/pexels-photo-13356439.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
 title: Vue vs React Comparison
 path: /vue-vs-react-comparison
 date: 2019-03-27
