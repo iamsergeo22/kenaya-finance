@@ -1,9 +1,9 @@
 <template>
-  <div class=" font-sans flex flex-col">
+  <div class="font-sans flex flex-col">
 
     <header>
       <nav
-        class="shadow-lg mx-auto flex flex-wrap bg-white gap-4 px-8 lg:justify-between justify-between items-center py-4">
+        class="shadow-lg mx-auto font-sans flex flex-wrap bg-white gap-4 px-8 lg:justify-between justify-between items-center py-4">
         <div>
           <nuxt-link v-if="theme === 'theme-light'" to="/">
             <h1 class="text-2xl">
@@ -22,7 +22,7 @@
           </button>
         </div>
         <ul
-          class="tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
+          class="font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
           :class="isOpen ? 'block': 'hidden'">
           <li class="mb-6 lg:mb-0">
             <!-- <search-input /> -->
@@ -44,8 +44,8 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/blog" class="text-black hover:text-blue-800  text-xl hover:no-underline">Blog
-            </nuxt-link>
+            <a href="/blog" class="text-black hover:text-blue-800  text-xl hover:no-underline">Blog
+            </a>
           </li>
           <li>
             <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl hover:no-underline">Nous Contacter
@@ -59,7 +59,7 @@
     <div class="flex-grow">
       <Nuxt />
     </div>
-    <footer class="bg-blue-900 text-white">
+    <footer class="bg-color text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div class="flex flex-col lg:flex-row gap-2">
@@ -159,17 +159,19 @@
 </script>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-  .font-sans {
-    font-family: 'Poppins', sans-serif;
-  }
+  
 
   li:active {
   background-color: #b4e41c;
   border: 1px solid black;
   padding: 10px;
 }
+
+.bg-color {
+        background-color: #070A52;
+        /* Remove focus outline */
+    }
 
   li:hover {
   background-color: #b4e41c;

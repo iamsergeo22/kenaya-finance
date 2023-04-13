@@ -1,5 +1,5 @@
 ---
-image: https://images.pexels.com/photos/13356439/pexels-photo-13356439.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
+image: https://kenayafinance.jumbafinder.com/_nuxt/img/diplomate.7145ab6.jpg
 title: Introduction to Gridsome
 path: /introduction-to-gridsome
 date: 2019-04-08

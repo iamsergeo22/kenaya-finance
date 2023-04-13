@@ -44,8 +44,23 @@ module.exports = {
       
     }, */
     fontFamily: {
-      sans: ['Josefin Sans', 'Poppins',  'Open Sans', 'sans-serif'],
-      /* serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      sans: [
+        'Nunito Sans',
+        'Roboto',
+        'poppins',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+      ],
+      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'Menlo',
         'Monaco',
@@ -53,7 +68,7 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         'monospace',
-      ], */
+      ],
     },
   },
   variants: {},

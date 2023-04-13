@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-gray-100">
-    <h2 class="text-3xl text-blue-800 font-bold uppercase text-center mb-2">A Propos</h2>
+  <div class="bg-gray-200">
+    <h2 class="text-3xl text-color font-bold uppercase text-center mb-2 mt-8">A Propos</h2>
 
     <div class="mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 p-8">
 
         <div class="bg-white rounded-lg shadow-lg p-6">
-          <h2 class="text-xl font-semibold mb-4 text-justify text-blue-800 text-2xl">Notre Histoire</h2>
-          <p class="text-gray-700 mb-4 text-xl text-justify">
+          <h2 class="text-xl font-semibold mb-4 text-justify text-color text-2xl">Notre Histoire</h2>
+          <p class="text-black mb-4 text-xl text-justify">
 
             KENAYA FINANCES est une société d'intermédiation financière fondée à Brazzaville le 19 mars 2019. Nous
             travaillons en partenariat avec plusieurs institutions financières pour proposer une gamme diversifiée de
@@ -15,13 +15,13 @@
 
           </p>
 
-          <p class="text-gray-700 mb-4 text-xl text-justify">
+          <p class="text-black mb-4 text-xl text-justify">
             Parmi ces produits, nous commercialisons notamment des services de transfert d'argent tels que MONEY GRAM et
             RIA, des abonnements à CANAL+, des cartes prépayées UBA et PRESF, ainsi que des services de paiement mobile
             tels que MOBILE MONEY et AIRTEL MONEY
 
           </p>
-          <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Learn more</a>
+          <!-- <a href="#" class="text-color text-xl  hover:text-blue-800 font-semibold">Lire Plus</a> -->
         </div>
         
         <div class="">
@@ -36,8 +36,8 @@
         <img src="../assets/img/DIAPOAIRTEL.jpg" alt="Image" class="w-full rounded-lg shadow-lg">
       </div>
       <div class="bg-white rounded-lg shadow-lg pt-8 p-6">
-          <h2 class="text-xl font-semibold mb-4 pt-8 text-blue-800 text-2xl">Notre Mission et Valeurs</h2>
-          <p class="text-gray-700 mb-4 text-xl text-justify">
+          <h2 class="text-xl font-semibold mb-4 pt-8 text-color text-2xl">Notre Mission et Valeurs</h2>
+          <p class="text-black mb-4 text-xl text-justify">
 
 
             Our mission is to provide fast, reliable, and secure money transfer services to our clients, while
@@ -53,7 +53,7 @@
 
           </p>
 
-          <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Learn more</a>
+          <!-- <a href="#" class="text-color text-xl  hover:text-blue-800 font-semibold">Lire Plus</a> -->
         </div>
       </div>
 
@@ -61,8 +61,8 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 mt-8 p-8">
        
         <div class="bg-white rounded-lg shadow-lg p-6 pt-8">
-          <h2 class="text-xl font-semibold mb-4 pt-8 text-blue-800 text-2xl">Notre Services</h2>
-          <p class="text-gray-700 mb-4 text-xl text-justify">
+          <h2 class="text-xl font-semibold mb-4 pt-8 text-color text-2xl">Notre Services</h2>
+          <p class="text-black mb-4 text-xl text-justify">
             We offer a range of money transfer services to suit the needs of our clients, including:
 
             Domestic money transfers
@@ -75,7 +75,7 @@
 
 
           </p>
-          <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">Learn more</a>
+          <!-- <a href="#" class="text-color text-xl hover:text-blue-800 font-bold">Lire Plus</a> -->
         </div>
 
         <div class="">
@@ -99,4 +99,9 @@
     background-color: #00000081;
     background-size: cover;
   }
+
+  .text-color {
+        color: #070A52;
+        /* Remove focus outline */
+    }
 </style>

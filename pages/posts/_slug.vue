@@ -7,7 +7,7 @@
       <div>{{ dateFormatted }}</div>
 
       <nuxt-content :document="postInMarkdown" />
-      <nuxt-link to="/blog" class="font-bold uppercase">Back to Blog</nuxt-link>
+      <a href="/blog" class="font-bold text-color">Retour aux actualités</a>
 
     </div>
   </div>
@@ -51,4 +51,9 @@ export default {
       padding: 15px;
     }
   }
+
+  .text-color {
+        color: #070A52;
+        /* Remove focus outline */
+    }
 </style>

@@ -1,12 +1,12 @@
 <template>
-  <div class="mx-auto py-16 px-16">
-    <div class="post-container grid gap-8 grid-cols-1 md:grid-cols-3">
-      <div v-for="(post,index) in posts" :key="index" class="border-gray-400 border-b shadow-2xl rounded">
-        <img :src=post.image :alt="post.title" class="w-full rounded-lg shadow-lg mb-3">
-        <h2 class="text-3xl font-bold mb-2 px-4">
-          <nuxt-link :to="`/posts/${post.slug}`" class="text-blue-600">{{ post.title }}</nuxt-link>
+  <div class="mx-auto py-16 lg:px-32 px-8 bg-gray-200">
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
+      <div v-for="(post,index) in posts" :key="index" class="hover:transform -translate-y-40 bg-white cursor-pointer  hover:shadow-2xl hover:shadow-blue-800 rounded-lg">
+        <img :src=post.image :alt="post.title" class="w-screen rounded-lg shadow-2xl mb-3 hover:opacity-60">
+        <h2 class="text-xl font-bold mb-2 px-4 no-underline">
+          <nuxt-link :to="`/posts/${post.slug}`" class="text-color ">{{ post.title }}</nuxt-link>
         </h2>
-        <div class="text-copy-secondary mb-4 text-md font-bold italic px-4">
+        <div class="text-back mb-2 text-md font-bold italic px-4">
           <span>{{ formatDate(post.date) }}</span>
         </div>
 
@@ -15,16 +15,16 @@
         </div> -->
 
         <div class="mb-4 px-4">
-          <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase text-md">Read More</nuxt-link>
+          <a :href="`/posts/${post.slug}`" class="font-bold text-color text-xl">Lire Plus</a>
         </div>
       </div> <!-- end post -->
     </div>
 
-    <div class="flex justify-between text-xl items-center mt-12">
+    <div class="flex justify-between text-xl text-color items-center mt-12">
       <a :href="previousPage"
-        :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showPreviousPage }">&larr; Prev</a>
+        :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showPreviousPage }">&larr; précédent</a>
       <div class="text-base">Page {{ currentPage }} of {{ totalPages }}</div>
-      <a :href="nextPage" :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showNextPage }">Next
+      <a :href="nextPage" :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showNextPage }">suivant 
         &rarr;</a>
     </div>
   </div>
@@ -50,7 +50,7 @@
       return {
         posts,
         currentPage: 1,
-        pagination: 4,
+        pagination: 6,
         allPosts: [],
         base: '/blog',
       }
@@ -111,19 +111,17 @@
 </script>
 
 <style scoped>
+
+
   .post-container {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .post {
-    padding: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .post-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+  .text-color {
+        color: #070A52;
+        /* Remove focus outline */
     }
-  }
+
+ 
 </style>
