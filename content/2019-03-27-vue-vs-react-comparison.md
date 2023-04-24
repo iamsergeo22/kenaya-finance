@@ -1,5 +1,5 @@
 ---
-image: https://kenayafinance.jumbafinder.com/_nuxt/img/diplomate.7145ab6.jpg
+image: https://imagedash.ova-africa.com/_nuxt/img/vb.66f88a2.jpg
 title: Vue vs React Comparison
 path: /vue-vs-react-comparison
 date: 2019-03-27

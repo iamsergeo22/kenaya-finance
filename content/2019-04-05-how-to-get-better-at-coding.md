@@ -1,5 +1,5 @@
 ---
-image: https://kenayafinance.jumbafinder.com/_nuxt/img/diplomate.7145ab6.jpg
+image: https://imagedash.ova-africa.com/_nuxt/img/lk.7b835c7.jpg
 title: How to Get Better At Coding
 path: /how-to-get-better-at-coding
 date: 2019-04-05

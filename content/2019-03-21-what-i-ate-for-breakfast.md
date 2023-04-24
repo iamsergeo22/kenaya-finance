@@ -1,5 +1,5 @@
 ---
-image: https://kenayafinance.jumbafinder.com/_nuxt/img/diplomate.7145ab6.jpg
+image: https://imagedash.ova-africa.com/_nuxt/img/xc.bd6b08d.jpg
 title: What I Ate for Breakfast
 path: /what-i-ate-for-breakfast
 date: 2019-03-21

@@ -1,5 +1,5 @@
 ---
-image: https://kenayafinance.jumbafinder.com/_nuxt/img/diplomate.7145ab6.jpg
+image: https://imagedash.ova-africa.com/_nuxt/img/ly.48ec76b.jpg
 title: Introduction to Gridsome
 path: /introduction-to-gridsome
 date: 2019-04-08

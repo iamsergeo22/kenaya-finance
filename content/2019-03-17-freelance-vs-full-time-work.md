@@ -1,5 +1,5 @@
 ---
-image: https://kenayafinance.jumbafinder.com/_nuxt/img/diplomate.7145ab6.jpg
+image: https://imagedash.ova-africa.com/_nuxt/img/bl.3fb672b.jpg
 title: Freelance vs Full Time Work
 path: /freelance-vs-full-time-work
 date: 2019-03-17
