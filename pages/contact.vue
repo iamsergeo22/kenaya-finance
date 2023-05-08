@@ -1,8 +1,8 @@
 <template>
-    <div class="">
+    <div class="font-poppins">
         <div class="bg-image py-32">
             <div class="lg:mx-24 p-8 py-4">
-                <h2 class="lg:text-5xl text-4xl text-white font-bold uppercase pb-4 text-center mb-8">Contactez-Nous</h2>
+                <h2 class="lg:text-4xl sm:text-3xl text-white font-bold uppercase pb-4 text-center mb-8">Contactez-Nous</h2>
 
             </div>
         </div>

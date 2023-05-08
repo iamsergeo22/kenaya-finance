@@ -5,8 +5,6 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
   theme: {
     extend: {
@@ -48,19 +46,7 @@ module.exports = {
     }, */
     fontFamily: {
       poppins: ['Poppins', 'sans-serif', 'Josefin Sans'],
-      sans: [
-        'poppins',
-        
-      ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-      mono: [
-        'Menlo',
-        'Monaco',
-        'Consolas',
-        '"Liberation Mono"',
-        '"Courier New"',
-        'monospace',
-      ],
+      
     },
 
     backgroundImage: (theme) => ({

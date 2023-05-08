@@ -1,5 +1,5 @@
 <template>
-  <div class="scrollable-container">
+  <div class="scrollable-container font-poppins">
 
 
     <div class="">
@@ -68,7 +68,7 @@
         <div class="p-4">
           <h2 class="font-bold text-3xl text-color">Ria</h2>
           <p class="mt-2 text-justify">
-            RIA est un service de transfert d'argent international rapide et sûr qui permet d'envoyer de l'argent à des proches et des amis dans le monde entier.
+            RIA est un service de transfert d'argent international rapide et sûr qui permet d'envoyer de l'argent à des proches dans le monde entier.
           </p>
         </div>
         <div class="p-4">
