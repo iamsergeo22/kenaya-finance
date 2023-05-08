@@ -1,18 +1,15 @@
 <template>
-  <div class="font-sans flex flex-col">
+  <div class="font-normal font-poppins flex flex-col">
 
     <header>
       <nav
         class="shadow-lg mx-auto font-sans flex flex-wrap bg-white gap-4 px-8 lg:justify-between justify-between items-center py-4">
         <div>
-          <nuxt-link v-if="theme === 'theme-light'" to="/">
-            <h1 class="text-2xl">
+          <nuxt-link to="/">
+            <h1 class="text-md">
               <img src="../assets/img/logo.png" alt="Image" class=""> </h1>
           </nuxt-link>
-          <nuxt-link v-else to="/">
-            <h1 class="text-2xl">
-              <img src="../assets/img/logo.png" alt="Image" class=""> </h1>
-          </nuxt-link>
+          
         </div>
         <div class="block lg:hidden">
           <button @click="toggle"
@@ -22,33 +19,31 @@
           </button>
         </div>
         <ul
-          class="font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
+          class="font-poppins w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
           :class="isOpen ? 'block': 'hidden'">
-          <li class="mb-6 lg:mb-0">
-            <!-- <search-input /> -->
-          </li>
+         
 
-          <li>
-            <nuxt-link to="/" class="text-black hover:text-blue-800 text-xl hover:no-underline">Accueil</nuxt-link>
+          <li @click="closeMenu">
+            <nuxt-link to="/" :class="$route.path === '/'?'active':''" class="text-black font-medium	hover:text-blue-800 text-md hover:no-underline">Accueil</nuxt-link>
           </li>
-          <li>
-            <nuxt-link to="/transaction" class="text-black hover:text-blue-800  text-xl hover:no-underline">Transactions
+          <li @click="closeMenu">
+            <nuxt-link to="/transaction" :class="$route.path === '/transaction'?'active':''" class="text-black font-medium	 hover:text-blue-800  text-md hover:no-underline">Transactions
             </nuxt-link>
           </li>
-          <li>
-            <nuxt-link to="/team" class="text-black hover:text-blue-800  text-xl hover:no-underline">Notre Equipe
+          <li @click="closeMenu">
+            <nuxt-link to="/team" :class="$route.path === '/team'?'active':''" class="text-black hover:text-blue-800 font-medium	  text-md hover:no-underline">Notre Equipe
             </nuxt-link>
           </li>
-          <li>
-            <nuxt-link to="/about" class="text-black hover:text-blue-800  text-xl hover:no-underline">A Propos
+          <li @click="closeMenu">
+            <nuxt-link to="/about" :class="$route.path === '/about'?'active':''" class="text-black hover:text-blue-800  font-medium	 text-md hover:no-underline">A Propos
             </nuxt-link>
           </li>
-          <li>
-            <a href="/blog" class="text-black hover:text-blue-800  text-xl hover:no-underline">Blog
+          <li @click="closeMenu">
+            <a href="/blog" :class="$route.path === '/blog'?'active':''" class="text-black hover:text-blue-800 font-medium	 text-md hover:no-underline">Blog
             </a>
           </li>
-          <li>
-            <nuxt-link to="/contact" class="text-black hover:text-blue-800  text-xl hover:no-underline">Nous Contacter
+          <li @click="closeMenu">
+            <nuxt-link to="/contact" :class="$route.path === '/contact'?'active':''" class="text-black hover:text-blue-800 font-medium	 text-md hover:no-underline">Nous Contacter
             </nuxt-link>
           </li>
 
@@ -64,7 +59,7 @@
         <div class="mb-8 lg:mb-0">
           <div class="flex flex-col lg:flex-row gap-2">
             <span>Copyright {{ new Date().getFullYear() }} Kenaya Finance </span>
-            <span class="text-center">Designed by Serge Tassiga</span>
+            <span class="text-center">Designed by GreatFySoft</span>
           </div>
         </div>
         <ul class="flex items-center space-x-8">
@@ -149,9 +144,9 @@
       toggle() {
         this.isOpen = !this.isOpen
       },
-      updateTheme(theme) {
-        this.theme = theme
-      }
+      closeMenu() {
+      this.isOpen = false;
+    }
     },
 
 
@@ -159,23 +154,22 @@
 </script>
 
 <style scoped>
+.bg-color {
+        background-color: #070A52;
+    }
 
   
 
-  li:active {
+ /*  li:active {
   background-color: #b4e41c;
   border: 1px solid black;
   padding: 10px;
 }
 
-.bg-color {
-        background-color: #070A52;
-        /* Remove focus outline */
-    }
 
   li:hover {
   background-color: #b4e41c;
   border: 1px solid black;
   padding: 5px;
-}
+} */
 </style>

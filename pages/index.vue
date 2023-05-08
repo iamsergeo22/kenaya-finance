@@ -54,7 +54,8 @@
         <div class="p-4">
 
           <h2 class="font-bold text-3xl text-color">MoneyGram</h2>
-          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
+          <p class="mt-2 text-justify">
+            MoneyGram est un service de transfert d'argent rapide et sûr pour envoyer de l'argent à des proches et des amis dans le monde entier.
           </p>
         </div>
         <div class="p-4">
@@ -66,7 +67,8 @@
 
         <div class="p-4">
           <h2 class="font-bold text-3xl text-color">Ria</h2>
-          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
+          <p class="mt-2 text-justify">
+            RIA est un service de transfert d'argent international rapide et sûr qui permet d'envoyer de l'argent à des proches et des amis dans le monde entier.
           </p>
         </div>
         <div class="p-4">
@@ -78,8 +80,8 @@
 
         <div class="p-4">
           <h2 class="font-bold text-3xl text-color">Canal +</h2>
-          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
-          </p>
+          <p class="mt-2 text-justify">
+            Faites vos abonnenments et Réabonnements Canal dans nos agences et béneficier des programmes exclusifs de Canal+          </p>
         </div>
         <div class="p-4">
           <nuxt-link to="/transaction" class="bg-color hover:no-underline py-3 button text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
@@ -90,11 +92,12 @@
 
         <div class="p-4">
           <h2 class="font-bold text-3xl text-color">Visa</h2>
-          <p class="mt-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in justo nec eros ultricies
-          </p>
+          <p class="mt-2 text-justify">
+            Rechargé votre carte Visa dans nos agences et profiter des services financiers digitales de votre choix          </p>
         </div>
+        <br>
         <div class="p-4">
-          <nuxt-link to="/transaction" class="bg-color hover:no-underline py-3 button text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
+          <nuxt-link to="/transaction" class="bg-color hover:no-underline py-3 button font-normal	 text-white font-bold py-2 px-3 rounded-lg">Lancer votre demande</nuxt-link>
         </div>
       </div>
     </div>

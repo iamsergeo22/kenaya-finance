@@ -1,8 +1,22 @@
 <template>
-  <div class="bg-gray-200">
-    <h2 class="text-3xl text-color font-bold uppercase text-center mb-2 mt-8">A Propos</h2>
+  <div>
+    <div class="relative w-full h-full p-24">
+    <img class="absolute top-0 left-0 w-full h-full object-cover" src="https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-105129.jpg?size=626&ext=jpg" alt="Banner Image">
+    <div class="relative w-full h-full flex flex-col justify-center items-center h-full bg-opacity-60">
+      <h1 class="text-4xl font-bold text-white">A Propos</h1>
+    </div>
+  </div>
 
-    <div class="mx-auto">
+ 
+
+  <div>
+    <Breadcrumb :crumbs="crumbs" />
+  </div>
+
+
+    <div class="mx-auto bg-gray-300">
+      <h2 class="text-3xl text-color pt-4 font-bold uppercase text-center mb-2 mt-2">A Propos</h2>
+
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 p-8">
 
         <div class="bg-white rounded-lg shadow-lg p-6">
@@ -40,15 +54,7 @@
           <p class="text-black mb-4 text-xl text-justify">
 
 
-            Our mission is to provide fast, reliable, and secure money transfer services to our clients, while
-            delivering exceptional customer service and support. <br>
-
-            We are guided by the following core values: <br>
-
-            Integrity
-            Professionalism
-            Accountability
-            Innovation
+            Notre mission est de fournir à nos clients des services de transfert d'argent rapides, fiables et sécurisés, tout en offrant un service client exceptionnel et un soutien optimal. Nous sommes guidés par les valeurs fondamentales suivantes : Intégrité, Professionnalisme, Responsabilité et Innovation.
 
 
           </p>
@@ -63,16 +69,7 @@
         <div class="bg-white rounded-lg shadow-lg p-6 pt-8">
           <h2 class="text-xl font-semibold mb-4 pt-8 text-color text-2xl">Notre Services</h2>
           <p class="text-black mb-4 text-xl text-justify">
-            We offer a range of money transfer services to suit the needs of our clients, including:
-
-            Domestic money transfers
-            International money transfers
-            Online money transfers
-            Mobile money transfers
-            Bill payments
-            Our services are fast, reliable, and secure, and we use the latest technology to ensure that your money is
-            transferred quickly and safely.
-
+            Nous offrons une gamme de services de transfert d'argent pour répondre aux besoins de nos clients, y compris : Transferts d'argent nationaux Transferts d'argent internationaux Transferts d'argent en ligne Transferts d'argent mobiles Paiements de factures Nos services sont rapides, fiables et sécurisés, et nous utilisons les dernières technologies pour garantir que votre argent est transféré rapidement et en toute sécurité.
 
           </p>
           <!-- <a href="#" class="text-color text-xl hover:text-blue-800 font-bold">Lire Plus</a> -->
@@ -88,9 +85,26 @@
 </template>
 
 <script>
-  export default {
-    // Add any necessary script here
-  }
+import Breadcrumb from '~/components/Breadcrumb.vue';
+
+export default {
+  components: {
+    Breadcrumb,
+  },
+  data() {
+    return {
+      title: 'A Propos Page',
+
+      crumbs: [
+        { name: 'A propos', path: '/about' },
+        
+      ],
+      
+    }},
+  computed: {
+   
+  },
+}
 </script>
 
 <style>

@@ -4,6 +4,9 @@
 ** Docs: https://tailwindcss.com/docs/configuration
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
     extend: {
@@ -44,21 +47,10 @@ module.exports = {
       
     }, */
     fontFamily: {
+      poppins: ['Poppins', 'sans-serif', 'Josefin Sans'],
       sans: [
-        'Nunito Sans',
-        'Roboto',
         'poppins',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
+        
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
@@ -69,6 +61,18 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+    },
+
+    backgroundImage: (theme) => ({
+      banner: "url('/images/banner.jpg')",
+    }),
+    gradientColorStops: (theme) => ({
+      ...theme('colors'),
+      transparent: 'transparent',
+    }),
+    filter: {
+      grayscale: 'grayscale(1)',
+      invert: 'invert(1)',
     },
   },
   variants: {},

@@ -5,6 +5,18 @@
   "LazyAgences": {
     "description": "Auto imported from components/Agences.vue"
   },
+  "Banner": {
+    "description": "Auto imported from components/Banner.vue"
+  },
+  "LazyBanner": {
+    "description": "Auto imported from components/Banner.vue"
+  },
+  "Breadcrumb": {
+    "description": "Auto imported from components/Breadcrumb.vue"
+  },
+  "LazyBreadcrumb": {
+    "description": "Auto imported from components/Breadcrumb.vue"
+  },
   "Slider": {
     "description": "Auto imported from components/Slider.vue"
   },

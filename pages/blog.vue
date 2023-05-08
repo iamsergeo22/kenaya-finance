@@ -1,5 +1,22 @@
 <template>
-  <div class="mx-auto py-16 lg:px-32 px-8 bg-gray-200">
+
+  <div class="">
+    <div class="relative w-full h-full p-24">
+    <img class="absolute top-0 left-0 w-full h-full object-cover" src="https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-105129.jpg?size=626&ext=jpg" alt="Banner Image">
+    <div class="relative w-full h-full flex flex-col justify-center items-center h-full bg-opacity-60">
+      <h1 class="text-4xl font-bold text-white">Blog</h1>
+    </div>
+  </div>
+
+ 
+
+  <div>
+    <Breadcrumb :crumbs="crumbs" />
+  </div>
+  
+  <div class="mx-auto py-16 lg:px-32 px-8 bg-gray-300">
+
+    
     <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
       <div v-for="(post,index) in posts" :key="index" class="hover:transform -translate-y-40 bg-white cursor-pointer  hover:shadow-2xl hover:shadow-blue-800 rounded-lg">
         <img :src=post.image :alt="post.title" class="w-screen rounded-lg shadow-2xl mb-3 hover:opacity-60">
@@ -22,21 +39,25 @@
 
     <div class="flex justify-between text-xl text-color items-center mt-12">
       <a :href="previousPage"
-        :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showPreviousPage }">&larr; précédent</a>
+        :class="{ 'text-color hover:text-color cursor-not-allowed': !showPreviousPage }">&larr; précédent</a>
       <div class="text-base">Page {{ currentPage }} of {{ totalPages }}</div>
-      <a :href="nextPage" :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showNextPage }">suivant 
+      <a :href="nextPage" :class="{ 'text-color hover:text-color cursor-not-allowed': !showNextPage }">suivant 
         &rarr;</a>
     </div>
   </div>
+</div>
 </template>
 
 <script>
   import {
     format
   } from 'date-fns'
+  import Breadcrumb from '~/components/Breadcrumb.vue';
 
   export default {
-
+    components: {
+    Breadcrumb,
+  },
     async asyncData({
       $content
     }) {
@@ -44,10 +65,14 @@
         .only(['title', 'date', 'summary', 'image', 'tags', 'slug'])
         .sortBy('createdAt', 'desc')
         .fetch()
-
       console.log("posts", posts)
-
       return {
+        title: 'Blog Page',
+
+      crumbs: [
+        { name: 'Blog', path: '/blog' },
+        
+      ],
         posts,
         currentPage: 1,
         pagination: 6,
@@ -59,8 +84,6 @@
     //   return {
     //     posts: [],
     //     
-
-
     //   }
     // },
       computed: {
@@ -92,14 +115,11 @@
       async fetch() {
         this.allPosts = await this.$content()
           .fetch()
-
         this.currentPage = parseInt(this.$route.query.page) ? parseInt(this.$route.query.page) : 1
-
         if (this.currentPage > this.totalPages) {
           this.$router.push('/blog')
           window.location.href = '/blog'
         }
-
         this.posts = await this.$content()
           .sortBy('date', 'desc')
           .limit(this.pagination)
@@ -111,17 +131,13 @@
 </script>
 
 <style scoped>
-
-
   .post-container {
     display: flex;
     flex-wrap: wrap;
   }
-
   .text-color {
         color: #070A52;
         /* Remove focus outline */
     }
-
  
 </style>
