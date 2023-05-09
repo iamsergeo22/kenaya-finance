@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.80a0074.js",
+    "app.50b8f60.js",
     "content/plugin.js.4ee40f2.js",
     "img/331426255_1411753576305242_272167460667299199_n.93bd5d0.jpg",
     "img/404.7b6c882.svg",
@@ -29,24 +29,24 @@
     "node_modules/commons.dd92027.js",
     "pages/about.fc5523e.js",
     "pages/blog.9d255f1.js",
-    "pages/contact.8ac8198.js",
+    "pages/contact.d83fb3e.js",
     "pages/index.e2e5b51.js",
     "pages/posts/_slug.9af150e.js",
     "pages/team.ef9afcb.js",
     "pages/transaction.d59d753.js",
-    "runtime.863c1c1.js"
+    "runtime.e6944c2.js"
   ],
   "initial": [
-    "runtime.863c1c1.js",
+    "runtime.e6944c2.js",
     "node_modules/commons.dd92027.js",
-    "app.80a0074.js"
+    "app.50b8f60.js"
   ],
   "async": [
     "content/plugin.js.4ee40f2.js",
     "node_modules/blog~posts.slug.7b234ac.js",
     "pages/about.fc5523e.js",
     "pages/blog.9d255f1.js",
-    "pages/contact.8ac8198.js",
+    "pages/contact.d83fb3e.js",
     "pages/index.e2e5b51.js",
     "pages/posts/_slug.9af150e.js",
     "pages/team.ef9afcb.js",
@@ -2689,7 +2689,7 @@
       27,
       24
     ],
-    "5ea4e26a": [
+    "33ad99f4": [
       28,
       5
     ],
@@ -2845,11 +2845,11 @@
       27,
       24
     ],
-    "ba9043da": [
+    "05b7e93c": [
       28,
       5
     ],
-    "3688cb6f": [
+    "ccee52d0": [
       28,
       5
     ],
@@ -3301,7 +3301,7 @@
       28,
       5
     ],
-    "a38cd094": [
+    "082daa6d": [
       28,
       5
     ],
@@ -3309,7 +3309,7 @@
       28,
       5
     ],
-    "0ecac360": [
+    "528eb107": [
       28,
       5
     ],
@@ -3453,7 +3453,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.80a0074.js"
+      "app.50b8f60.js"
     ],
     "be5ea2d0": [
       "content/plugin.js.4ee40f2.js"
@@ -3471,7 +3471,7 @@
       "pages/blog.9d255f1.js"
     ],
     "67c13ec2": [
-      "pages/contact.8ac8198.js"
+      "pages/contact.d83fb3e.js"
     ],
     "2a130dde": [
       "pages/index.e2e5b51.js"
@@ -3486,7 +3486,7 @@
       "pages/transaction.d59d753.js"
     ],
     "6fca0322": [
-      "runtime.863c1c1.js"
+      "runtime.e6944c2.js"
     ]
   }
 }
