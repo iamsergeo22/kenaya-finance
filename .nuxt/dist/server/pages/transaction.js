@@ -134,12 +134,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/transaction.vue?vue&type=template&id=73c93c4b&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"font-poppins"},[_vm._ssrNode("<div class=\"relative w-full h-full p-24\"><img src=\"https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-105129.jpg?size=626&ext=jpg\" alt=\"Banner Image\" class=\"absolute top-0 left-0 w-full h-full object-cover\"> <div class=\"relative w-full h-full flex flex-col justify-center items-center h-full bg-opacity-60\"><h1 class=\"lg:text-4xl sm:text-3xl font-bold text-white\">Transactions</h1></div></div> "),_vm._ssrNode("<div>","</div>",[_c('Breadcrumb',{attrs:{"crumbs":_vm.crumbs}})],1),_vm._ssrNode(" <div class=\"mx-auto mt-3 pt-4 bg-gray-300\"><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfISEwN6tyzKh0VxEEXpc1zk-AV7GMmAGwrCsGA9-65y_GfSA/viewform?embedded=true\" width=\"100%\" height=\"950\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe></div>")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/transaction.vue?vue&type=template&id=066a8b00&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"font-poppins"},[_vm._ssrNode("<div>","</div>",[_c('Breadcrumb',{attrs:{"crumbs":_vm.crumbs}})],1),_vm._ssrNode(" <div class=\"mx-auto mt-3 pt-4 bg-gray-300\"><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfISEwN6tyzKh0VxEEXpc1zk-AV7GMmAGwrCsGA9-65y_GfSA/viewform?embedded=true\" width=\"100%\" height=\"950\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/transaction.vue?vue&type=template&id=73c93c4b&
+// CONCATENATED MODULE: ./pages/transaction.vue?vue&type=template&id=066a8b00&
 
 // EXTERNAL MODULE: ./components/Breadcrumb.vue + 4 modules
 var Breadcrumb = __webpack_require__(41);

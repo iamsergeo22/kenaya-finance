@@ -78,12 +78,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/posts/_slug.vue?vue&type=template&id=76f4ea35&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"markdown-body\">","</div>",[_vm._ssrNode("<img"+(_vm._ssrAttr("src",_vm.postInMarkdown.image))+(_vm._ssrAttr("alt",_vm.postInMarkdown.title))+" class=\"w-full rounded-lg shadow-lg mb-3\"> <h2>"+_vm._ssrEscape(_vm._s(_vm.postInMarkdown.title))+"</h2> <div>"+_vm._ssrEscape(_vm._s(_vm.dateFormatted))+"</div> "),_c('nuxt-content',{attrs:{"document":_vm.postInMarkdown}}),_vm._ssrNode(" <a href=\"/blog\" class=\"font-bold text-color\">Retour aux actualités</a>")],2)])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/posts/_slug.vue?vue&type=template&id=43f3053a&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"markdown-body text-justify\">","</div>",[_vm._ssrNode("<img"+(_vm._ssrAttr("src",_vm.postInMarkdown.image))+(_vm._ssrAttr("alt",_vm.postInMarkdown.title))+" class=\"w-full rounded-lg shadow-lg mb-3\"> <h2 class=\"text-color\">"+_vm._ssrEscape(_vm._s(_vm.postInMarkdown.title))+"</h2> <div><p class=\"text-justify text-md\">"+_vm._ssrEscape("\n        "+_vm._s(_vm.dateFormatted)+"\n      ")+"</p></div> "),_c('nuxt-content',{attrs:{"document":_vm.postInMarkdown}}),_vm._ssrNode(" <a href=\"/blog\" class=\"font-bold text-color text-md\">Retour aux actualités</a>")],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/posts/_slug.vue?vue&type=template&id=76f4ea35&
+// CONCATENATED MODULE: ./pages/posts/_slug.vue?vue&type=template&id=43f3053a&
 
 // EXTERNAL MODULE: ./assets/css/github-markdown.css
 var github_markdown = __webpack_require__(71);
@@ -92,6 +92,10 @@ var github_markdown = __webpack_require__(71);
 var external_date_fns_ = __webpack_require__(39);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/posts/_slug.vue?vue&type=script&lang=js&
+//
+//
+//
+//
 //
 //
 //

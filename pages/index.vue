@@ -48,7 +48,7 @@
 
     <h2 class="text-4xl text-color font-bold text-center bg-gray-200 pt-4">Nos Produits</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-8 bg-gray-200">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-6 bg-gray-300">
       <div class="border rounded bg-white hover:shadow-lg">
         <img class="rounded-lg shadow-lg" src="../assets/img/MGI__NEW_LOGO_v1.jpg" alt="" />
         <div class="p-4">
@@ -126,7 +126,7 @@ import Agences from '../components/Agences.vue'
   }
 
   .bg-color {
-        background-color: #070A52;
+        background-color: #070952e4;
         /* Remove focus outline */
     }
 

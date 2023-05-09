@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-color rounded pb-4 py-8 px-8">
+    <div class="bg-agences pb-4 py-8 px-8">
         <h2 class="text-4xl text-white text-center font-bold pt-4">Nos Agences</h2>
         <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 pt-4">
             <div class="flex flex-col  items-center space-y-2">
@@ -248,7 +248,7 @@
 
 
         <h2 @click="showMore = !showMore"
-            class="text-xl text-blue-800 cursor-pointer mt-2 text-center flex gap-2 justify-center">
+            class="text-xl text-white font-extrabold cursor-pointer mt-2 text-center flex gap-2 justify-center">
             Voir Plus
             <svg xmlns="http://www.w3.org/2000/svg" v-show="!showMore" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
@@ -276,10 +276,11 @@
 
 
 <style scoped>
-    .bg-color {
-        background-color: #070A52;
-        /* Remove focus outline */
-    }
+   .bg-agences {
+    background-color: #070952e4;
+  background-image: linear-gradient(45deg, #070952f1 0%, #090979 35%, #b4e41c 100%);
+
+}
 
     .button:hover {
   background-color: #b4e41c;

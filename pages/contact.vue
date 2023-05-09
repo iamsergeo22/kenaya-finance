@@ -14,7 +14,7 @@
                     <form action="#" class="mb-8">
                         <div class="flex flex-wrap mb-6 -mx-4">
                             <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                                <label class="block mb-2 text-copy-primary" for="name">
+                                <label class="block mb-2 text-black font-bold" for="name">
                                     Noms
                                 </label>
 
@@ -24,7 +24,7 @@
                             </div>
 
                             <div class="w-full px-4 md:w-1/2">
-                                <label class="block text-copy-primary mb-2" for="email">
+                                <label class="block text-black font-bold mb-2" for="email">
                                     Email Addresse
                                 </label>
 
@@ -36,7 +36,7 @@
 
                         <div class="flex flex-wrap mb-6 -mx-4">
                             <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                                <label class="block mb-2 text-copy-primary" for="number">
+                                <label class="block mb-2 text-black font-bold" for="number">
                                     Numero de telephone
                                 </label>
 
@@ -46,11 +46,11 @@
                             </div>
 
                             <div class="w-full px-4 md:w-1/2">
-                                <label class="block text-copy-primary mb-2" for="email">
+                                <label class="block text-black font-bold mb-2" for="email">
                                     Sujet
                                 </label>
 
-                                <input type="email" name="email" id="email" placeholder="Project Proposal"
+                                <input type="email" name="email" id="email" placeholder="Sujet"
                                     class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
                                     required>
                             </div>
@@ -58,7 +58,7 @@
 
 
                         <div class="w-full mb-8">
-                            <label class="block text-copy-primary mb-2" for="message">
+                            <label class="block text-black font-bold mb-2" for="message">
                                 Message
                             </label>
 
@@ -90,13 +90,7 @@
                                     </path>
                                 </svg>123 Boulevard, Brazzaville, Congo</span>
                             <span class="flex gap-2 text-md">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
-                                    class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                                    </path>
-                                </svg>info@moneytransferagency.com</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 mr-4" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 3.460938 6.5625 L 26.539062 6.5625 L 26.539062 24.707031 L 3.460938 24.707031 Z M 3.460938 6.5625 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#id1)"><path fill="rgb(6.269836%, 5.879211%, 5.099487%)" d="M 24.230469 11.101562 L 15 16.769531 L 5.769531 11.101562 L 5.769531 8.832031 L 15 14.503906 L 24.230469 8.832031 Z M 24.230469 6.5625 L 5.769531 6.5625 C 4.492188 6.5625 3.472656 7.578125 3.472656 8.832031 L 3.460938 22.441406 C 3.460938 23.695312 4.492188 24.707031 5.769531 24.707031 L 24.230469 24.707031 C 25.507812 24.707031 26.539062 23.695312 26.539062 22.441406 L 26.539062 8.832031 C 26.539062 7.578125 25.507812 6.5625 24.230469 6.5625 " fill-opacity="1" fill-rule="nonzero"/></g></svg>info@moneytransferagency.com</span>
                             <span class="flex gap-2 text-md">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
                                     class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"

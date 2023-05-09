@@ -1,12 +1,12 @@
 <template>
 
   <div class="font-poppins">
-    <div class="relative w-full h-full p-24">
+    <!-- <div class="relative w-full h-full p-24">
     <img class="absolute top-0 left-0 w-full h-full object-cover" src="https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-105129.jpg?size=626&ext=jpg" alt="Banner Image">
     <div class="relative w-full h-full flex flex-col justify-center items-center h-full bg-opacity-60">
       <h1 class="lg:text-4xl sm:text-3xl font-bold text-white">Blog</h1>
     </div>
-  </div>
+  </div> -->
 
  
 
@@ -14,16 +14,16 @@
     <Breadcrumb :crumbs="crumbs" />
   </div>
   
-  <div class="mx-auto py-16 lg:px-32 px-8 bg-gray-300">
+  <div class="mx-auto py-16 lg:px-32 px-8 bg-gray-400">
 
     
-    <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-3">
       <div v-for="(post,index) in posts" :key="index" class="hover:transform -translate-y-40 bg-white cursor-pointer  hover:shadow-2xl hover:shadow-blue-800 rounded-lg">
         <img :src=post.image :alt="post.title" class="w-screen rounded-lg shadow-2xl mb-3 hover:opacity-60">
-        <h2 class="text-xl font-bold mb-2 px-4 no-underline">
+        <h2 class="text-lg font-bold mb-2 px-4 no-underline">
           <nuxt-link :to="`/posts/${post.slug}`" class="text-color ">{{ post.title }}</nuxt-link>
         </h2>
-        <div class="text-back mb-2 text-md font-bold italic px-4">
+        <div class="text-back mb-2 text-md font-extrabold italic px-4">
           <span>{{ formatDate(post.date) }}</span>
         </div>
 
@@ -75,7 +75,7 @@
       ],
         posts,
         currentPage: 1,
-        pagination: 6,
+        pagination: 4,
         allPosts: [],
         base: '/blog',
       }

@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.ea336b4.js",
+    "app.80a0074.js",
     "content/plugin.js.4ee40f2.js",
     "img/331426255_1411753576305242_272167460667299199_n.93bd5d0.jpg",
     "img/404.7b6c882.svg",
@@ -27,30 +27,30 @@
     "img/visa.596d41e.jpg",
     "node_modules/blog~posts.slug.7b234ac.js",
     "node_modules/commons.dd92027.js",
-    "pages/about.83233ff.js",
-    "pages/blog.1f4b488.js",
-    "pages/contact.920c3d9.js",
-    "pages/index.1c5ee8c.js",
-    "pages/posts/_slug.678eb95.js",
-    "pages/team.ef4e24a.js",
-    "pages/transaction.754fa16.js",
-    "runtime.eff502f.js"
+    "pages/about.fc5523e.js",
+    "pages/blog.9d255f1.js",
+    "pages/contact.8ac8198.js",
+    "pages/index.e2e5b51.js",
+    "pages/posts/_slug.9af150e.js",
+    "pages/team.ef9afcb.js",
+    "pages/transaction.d59d753.js",
+    "runtime.863c1c1.js"
   ],
   "initial": [
-    "runtime.eff502f.js",
+    "runtime.863c1c1.js",
     "node_modules/commons.dd92027.js",
-    "app.ea336b4.js"
+    "app.80a0074.js"
   ],
   "async": [
     "content/plugin.js.4ee40f2.js",
     "node_modules/blog~posts.slug.7b234ac.js",
-    "pages/about.83233ff.js",
-    "pages/blog.1f4b488.js",
-    "pages/contact.920c3d9.js",
-    "pages/index.1c5ee8c.js",
-    "pages/posts/_slug.678eb95.js",
-    "pages/team.ef4e24a.js",
-    "pages/transaction.754fa16.js"
+    "pages/about.fc5523e.js",
+    "pages/blog.9d255f1.js",
+    "pages/contact.8ac8198.js",
+    "pages/index.e2e5b51.js",
+    "pages/posts/_slug.9af150e.js",
+    "pages/team.ef9afcb.js",
+    "pages/transaction.d59d753.js"
   ],
   "modules": {
     "12097205": [
@@ -79,14 +79,15 @@
     "40661990": [
       25
     ],
-    "42308912": [
+    "41012954": [
       3,
       6,
       18
     ],
-    "44550446": [
-      28,
-      5
+    "42308912": [
+      3,
+      6,
+      18
     ],
     "55108611": [
       25
@@ -364,7 +365,7 @@
       6,
       18
     ],
-    "c367b228": [
+    "31a92909": [
       3,
       6,
       18
@@ -1289,7 +1290,7 @@
       6,
       18
     ],
-    "56f421f4": [
+    "67e2f123": [
       3,
       6,
       18
@@ -2075,7 +2076,7 @@
       6,
       18
     ],
-    "b85304ee": [
+    "6f64e7e8": [
       3,
       6,
       18
@@ -2535,12 +2536,7 @@
       6,
       18
     ],
-    "1c8a1ad1": [
-      3,
-      6,
-      18
-    ],
-    "0055bda6": [
+    "244c2fb0": [
       3,
       6,
       18
@@ -2689,15 +2685,15 @@
       20,
       13
     ],
-    "e05a2c76": [
+    "71684b3e": [
       27,
       24
     ],
-    "724ab4fe": [
+    "5ea4e26a": [
       28,
       5
     ],
-    "19ca4d5a": [
+    "680184b6": [
       31,
       19,
       15,
@@ -2708,7 +2704,7 @@
       30,
       24
     ],
-    "6ea1db4a": [
+    "4df1bad9": [
       29,
       8,
       9,
@@ -2722,7 +2718,7 @@
       10,
       11
     ],
-    "84f63c98": [
+    "64f43de8": [
       29,
       8,
       9,
@@ -2764,7 +2760,7 @@
       10,
       11
     ],
-    "3cd455e8": [
+    "f93ef0ac": [
       29,
       8,
       9,
@@ -2792,7 +2788,7 @@
       10,
       11
     ],
-    "ea1d40e4": [
+    "5d04dd60": [
       29,
       8,
       9,
@@ -2841,15 +2837,19 @@
       20,
       13
     ],
-    "52941f7d": [
+    "342980f6": [
       27,
       24
     ],
-    "791d8fa1": [
+    "5ab2f11a": [
       27,
       24
     ],
-    "4fb41cbc": [
+    "ba9043da": [
+      28,
+      5
+    ],
+    "3688cb6f": [
       28,
       5
     ],
@@ -2885,14 +2885,14 @@
       17,
       22
     ],
-    "9447e1ea": [
+    "2ac2ba6e": [
       31,
       19,
       15,
       17,
       22
     ],
-    "473501a2": [
+    "514c2a92": [
       31,
       19,
       15,
@@ -2985,7 +2985,7 @@
       10,
       11
     ],
-    "12c9dfda": [
+    "7bddb891": [
       29,
       8,
       9,
@@ -2999,7 +2999,7 @@
       10,
       11
     ],
-    "4e541c37": [
+    "58d27696": [
       29,
       8,
       9,
@@ -3013,7 +3013,7 @@
       10,
       11
     ],
-    "52ea62fc": [
+    "0b4c81a0": [
       29,
       8,
       9,
@@ -3027,7 +3027,7 @@
       10,
       11
     ],
-    "04e21150": [
+    "b60358e8": [
       29,
       8,
       9,
@@ -3249,7 +3249,7 @@
       20,
       13
     ],
-    "5ddbcaa6": [
+    "342b6aef": [
       26,
       8,
       9,
@@ -3263,7 +3263,7 @@
       20,
       13
     ],
-    "080356c7": [
+    "6b1ca709": [
       26,
       8,
       9,
@@ -3281,7 +3281,7 @@
       27,
       24
     ],
-    "61c2d8b6": [
+    "4eaf89c6": [
       27,
       24
     ],
@@ -3289,7 +3289,7 @@
       27,
       24
     ],
-    "f6022f48": [
+    "08376a7a": [
       27,
       24
     ],
@@ -3301,7 +3301,7 @@
       28,
       5
     ],
-    "19b61c23": [
+    "a38cd094": [
       28,
       5
     ],
@@ -3309,7 +3309,7 @@
       28,
       5
     ],
-    "641722bd": [
+    "0ecac360": [
       28,
       5
     ],
@@ -3320,7 +3320,7 @@
       17,
       22
     ],
-    "37b5c212": [
+    "3ad5a962": [
       31,
       19,
       15,
@@ -3334,7 +3334,7 @@
       17,
       22
     ],
-    "5af1d1b8": [
+    "05d13af5": [
       31,
       19,
       15,
@@ -3348,13 +3348,13 @@
       17,
       22
     ],
-    "9700f1a6": [
+    "5359417c": [
       32
     ],
     "45cf60a2": [
       32
     ],
-    "f0147072": [
+    "ac6cc048": [
       32
     ],
     "5f042ff2": [
@@ -3364,7 +3364,7 @@
       30,
       24
     ],
-    "9a40677c": [
+    "8c897164": [
       30,
       24
     ],
@@ -3372,7 +3372,7 @@
       30,
       24
     ],
-    "f353e648": [
+    "e59cf030": [
       30,
       24
     ],
@@ -3394,7 +3394,7 @@
       10,
       11
     ],
-    "3ecbd449": [
+    "55be2d95": [
       29,
       8,
       9,
@@ -3422,7 +3422,7 @@
       10,
       11
     ],
-    "f9dc8d3a": [
+    "cbf7daa2": [
       29,
       8,
       9,
@@ -3453,7 +3453,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.ea336b4.js"
+      "app.80a0074.js"
     ],
     "be5ea2d0": [
       "content/plugin.js.4ee40f2.js"
@@ -3465,28 +3465,28 @@
       "node_modules/commons.dd92027.js"
     ],
     "2aff1868": [
-      "pages/about.83233ff.js"
+      "pages/about.fc5523e.js"
     ],
     "b70f48fa": [
-      "pages/blog.1f4b488.js"
+      "pages/blog.9d255f1.js"
     ],
     "67c13ec2": [
-      "pages/contact.920c3d9.js"
+      "pages/contact.8ac8198.js"
     ],
     "2a130dde": [
-      "pages/index.1c5ee8c.js"
+      "pages/index.e2e5b51.js"
     ],
     "6cb54166": [
-      "pages/posts/_slug.678eb95.js"
+      "pages/posts/_slug.9af150e.js"
     ],
     "b6ff2384": [
-      "pages/team.ef4e24a.js"
+      "pages/team.ef9afcb.js"
     ],
     "7388b7dd": [
-      "pages/transaction.754fa16.js"
+      "pages/transaction.d59d753.js"
     ],
     "6fca0322": [
-      "runtime.eff502f.js"
+      "runtime.863c1c1.js"
     ]
   }
 }

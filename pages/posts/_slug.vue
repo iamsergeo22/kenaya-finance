@@ -1,13 +1,17 @@
 <template>
   <div>
-    <div class="markdown-body">
+    <div class="markdown-body text-justify">
       <img :src=postInMarkdown.image :alt="postInMarkdown.title" class="w-full rounded-lg shadow-lg mb-3">
 
-      <h2>{{ postInMarkdown.title }}</h2>
-      <div>{{ dateFormatted }}</div>
+      <h2 class="text-color">{{ postInMarkdown.title }}</h2>
+      <div>
+        <p class="text-justify text-md">
+          {{ dateFormatted }}
+        </p>
+      </div>
 
       <nuxt-content :document="postInMarkdown" />
-      <a href="/blog" class="font-bold text-color">Retour aux actualités</a>
+      <a href="/blog" class="font-bold text-color text-md">Retour aux actualités</a>
 
     </div>
   </div>
